@@ -1,18 +1,33 @@
 # AnimeImageClassifier_MobileNet_ViT
 
-### Setting Up
-```py
-# Navigate to your project folder
+## Setting Up
 
-# Create a clean virtual environment
+### Navigate to your project folder
+
+### Create a clean virtual environment
+
+```
 python -m venv venv
+```
 
-# Activate the environment
+### Activate the environment
+
 venv\Scripts\activate
 
-# Upgrade pip inside the venv
-python -m pip install --upgrade pip setuptools wheel
+### Upgrade pip inside the venv
 
-# Now install your dependencies
+```
+python -m pip install --upgrade pip setuptools wheel
+```
+
+### Now install your dependencies
+
+```
 pip install tensorflow-cpu rich markdown-it-py
+```
+
+### Download the images in the whatsapp group
+
+```
+python split_dataset.py
 ```

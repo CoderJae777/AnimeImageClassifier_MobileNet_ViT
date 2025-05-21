@@ -1,27 +1,18 @@
+# Ignore raw and generated datasets
+anime_dataset/
+anime_dataset_raw/
+
 # Virtual environment
 venv/
 
 # Python cache files
 __pycache__/
 *.py[cod]
-*.so
 
-# Jupyter Notebook checkpoints
+# Jupyter and editor junk
 .ipynb_checkpoints/
-
-# VS Code settings
 .vscode/
 
-# Mac/Windows OS files
+# OS junk files
 .DS_Store
 Thumbs.db
-
-# Model checkpoints, logs
-*.h5
-*.ckpt
-*.tflite
-logs/
-
-# Data (optional: if not pushing large data)
-data/
-
