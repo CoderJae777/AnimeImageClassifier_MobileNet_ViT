@@ -26,7 +26,11 @@ python -m pip install --upgrade pip setuptools wheel
 pip install tensorflow-cpu rich markdown-it-py
 ```
 
-### Download the images in the whatsapp group
+### Download the images in the whatsapp group INTO anime_dataset_raw
+
+Do NOT place it manually in the anime_dataset &rarr; we have the next part for it
+
+### Run the line below and your downloaded images will split randomly
 
 ```
 python split_dataset.py
