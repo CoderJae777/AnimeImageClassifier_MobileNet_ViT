@@ -1,6 +1,7 @@
 # Ignore raw and generated datasets
 anime_dataset/
 anime_dataset_raw/
+Trash/
 
 # Virtual environment
 venv/
